@@ -14,23 +14,23 @@ const FutureProblemSlide: React.FC = () => {
       
       <div className="future-problem-slide__grid">
         <div className="future-problem-slide__card">
-          <div className="future-problem-slide__label">Reality</div>
+          <div className="future-problem-slide__label">Users</div>
           <p className="future-problem-slide__text">
-            Customers need chargebacks because e-commerce platforms fail them constantly.
+            Users will write poor prompts that execute payments.
           </p>
         </div>
 
         <div className="future-problem-slide__card">
-          <div className="future-problem-slide__label">Problem</div>
+          <div className="future-problem-slide__label">Payment Agents</div>
           <p className="future-problem-slide__text">
-            Merchants need protection if they're going to offer chargeback guarantees.
+            Agents will missinterpret user prompts, or execute the wrong orders.
           </p>
         </div>
 
         <div className="future-problem-slide__card">
           <div className="future-problem-slide__label">Conflict</div>
           <p className="future-problem-slide__text">
-            Agents operate with cryptocurrencies. No banks. No reversals. No safety net.
+            Agents operate with cryptocurrencies. There is no native chargeback for crypto.
           </p>
         </div>
       </div>
