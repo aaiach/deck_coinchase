@@ -1,0 +1,126 @@
+.order-flow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 3rem 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.order-flow__step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 1.25rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+  transition: all 0.2s ease;
+  min-width: 140px;
+  max-width: 160px;
+  text-align: center;
+}
+
+.order-flow__step:hover {
+  border-color: var(--color-gray-400);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.order-flow__step--complete {
+  background-color: var(--color-gray-100);
+}
+
+.order-flow__icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  color: var(--color-gray-700);
+}
+
+.order-flow__step--complete .order-flow__icon {
+  color: var(--color-gray-900);
+}
+
+.order-flow__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.order-flow__label {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-gray-500);
+}
+
+.order-flow__text {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--color-gray-900);
+  line-height: 1.4;
+}
+
+.order-flow__arrow {
+  font-size: 1.25rem;
+  color: var(--color-gray-400);
+  line-height: 1;
+  margin: 0 -0.5rem;
+  transform: rotate(-90deg);
+}
+
+.order-flow__step-with-branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  align-self: flex-start;
+}
+
+.order-flow__step-with-branch .order-flow__step {
+  align-self: center;
+}
+
+.order-flow__branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.order-flow__branch-arrow {
+  font-size: 1.25rem;
+  color: var(--color-gray-400);
+  line-height: 1;
+}
+
+.order-flow__branch-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-gray-300);
+  min-width: 120px;
+  text-align: center;
+}
+
+.order-flow__icon--small {
+  width: 20px;
+  height: 20px;
+}
+
+.order-flow__branch-text {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  line-height: 1.3;
+}
+

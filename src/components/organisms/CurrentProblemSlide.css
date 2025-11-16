@@ -1,0 +1,51 @@
+.current-problem-slide__question {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 0;
+  border-top: 1px solid var(--color-gray-300);
+  max-width: 700px;
+}
+
+.current-problem-slide__text {
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--color-gray-500);
+  margin: 0;
+}
+
+.current-problem-slide__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.current-problem-slide__list li {
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--color-gray-500);
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.current-problem-slide__list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--color-gray-400);
+}
+
+.current-problem-slide__text--emphasis {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  color: var(--color-gray-900);
+  margin-top: 1rem;
+}
+

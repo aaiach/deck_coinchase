@@ -1,0 +1,19 @@
+.content-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+}
+
+.content-block--left {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.content-block--center {
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+

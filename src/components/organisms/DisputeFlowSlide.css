@@ -1,0 +1,134 @@
+.dispute-flow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 3rem 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.dispute-flow__step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.25rem 1rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+  min-width: 120px;
+  max-width: 130px;
+  text-align: center;
+}
+
+.dispute-flow__step--coinchase {
+  background-color: var(--color-gray-900);
+  border-color: var(--color-gray-900);
+}
+
+.dispute-flow__step--coinchase .dispute-flow__icon {
+  color: var(--color-white);
+}
+
+.dispute-flow__step--coinchase .dispute-flow__text {
+  color: var(--color-white);
+}
+
+.dispute-flow__icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  color: var(--color-gray-700);
+}
+
+.dispute-flow__icon--small {
+  width: 20px;
+  height: 20px;
+}
+
+.dispute-flow__text {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-gray-900);
+  line-height: 1.3;
+}
+
+.dispute-flow__text--small {
+  font-size: 0.75rem;
+}
+
+.dispute-flow__arrow {
+  font-size: 1.25rem;
+  color: var(--color-gray-400);
+  line-height: 1;
+  margin: 0 -0.25rem;
+}
+
+/* Investigation Section */
+.dispute-flow__investigation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-gray-300);
+  min-width: 140px;
+}
+
+.dispute-flow__investigate-label {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-gray-500);
+  text-align: center;
+}
+
+.dispute-flow__sources {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.dispute-flow__source {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+}
+
+/* Outcomes Section */
+.dispute-flow__outcomes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 120px;
+}
+
+.dispute-flow__outcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid var(--color-gray-300);
+  background-color: var(--color-white);
+}
+
+.dispute-flow__outcome--approved {
+  border-color: var(--color-gray-400);
+}
+
+.dispute-flow__outcome--approved .dispute-flow__icon {
+  color: var(--color-gray-900);
+}
+
+.dispute-flow__outcome--denied .dispute-flow__icon {
+  color: var(--color-gray-500);
+}
+
