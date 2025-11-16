@@ -1,7 +1,6 @@
 import React from 'react'
 import Slide from './Slide'
 import ContentBlock from '../molecules/ContentBlock'
-import StatNumber from '../atoms/StatNumber'
 import './CurrentProblemSlide.css'
 
 const CurrentProblemSlide: React.FC = () => {

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import SlideDeck from './components/templates/SlideDeck'
 import './App.css'
 
